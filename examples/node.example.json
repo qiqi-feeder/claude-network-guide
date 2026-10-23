@@ -1,0 +1,8 @@
+{
+  "server": "203.0.113.10",
+  "port": 443,
+  "uuid": "00000000-0000-0000-0000-000000000001",
+  "public_key": "AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+  "short_id": "01234567",
+  "server_name": "example.com"
+}

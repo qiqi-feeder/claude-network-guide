@@ -1,0 +1,4 @@
+interface:
+  display_name: "Claude 网络环境搭建与验收"
+  short_description: "检查 Windows 与 VPS，搭建独立分流并验证 DNS、IPv6 和断线行为"
+  default_prompt: "使用 $claude-network-setup 检查我的 Windows、Clash Verge 与 VPS，并按授权完成搭建和真实网络验收。"
