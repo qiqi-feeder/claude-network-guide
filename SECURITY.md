@@ -1,5 +1,7 @@
 # 安全与隐私
 
+**简体中文** | [English](docs/en/security.md)
+
 不要在 Issue、PR、截图、日志和公开仓库提交密码、UUID、Reality 私钥、订阅地址、邮箱或账号令牌。完整客户端 YAML 包含节点凭据，不能作为公开教程附件。
 
 private、outputs、backups、reports 目录已被 Git 忽略，更建议将秘密放仓库外。发布前检查工作区、暂存区和历史；忽略规则及简单扫描不能代替人工审阅。

@@ -1,5 +1,7 @@
 # 首次使用与账号检查
 
+**简体中文** | [English](en/claude-first-run.md)
+
 先完成网络验收，再访问 https://claude.ai/ 。按实际所在地与当前官方要求判断能否使用，固定海外出口不能改变资格。
 
 ## Google 账号地区

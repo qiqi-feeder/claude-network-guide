@@ -1,5 +1,7 @@
 # Claude 网络环境检查与搭建指南
 
+**简体中文** | [English](README.en.md)
+
 面向 **Windows + Clash Verge Rev + 自有 VPS** 的中文教程，同时提供可交给 AI 执行的 Skill。
 
 从真实搭建与排障中整理：先检查环境，再部署 sing-box + VLESS Reality，使用独立社区规则分流，最后验证 DNS、WebRTC、IPv6、节点故障和微信兼容性。仓库只含通用流程，不含作者的服务器、账号或连接凭据。

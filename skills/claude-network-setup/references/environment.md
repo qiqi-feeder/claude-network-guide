@@ -1,5 +1,7 @@
 # 环境发现：只读优先
 
+**简体中文** | [English](../../../docs/en/environment.md)
+
 ## Windows
 
 先运行 `scripts/inspect_windows.ps1`。它只报告代理进程、TUN/默认路由、DNS、时区和相关环境变量是否存在，不读取令牌值。

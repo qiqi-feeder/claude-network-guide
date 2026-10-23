@@ -1,5 +1,7 @@
 # 维护与验证
 
+**简体中文** | [English](en/maintaining.md)
+
 在仓库根目录运行（Python 3.10+）：
 
 ```powershell
@@ -27,3 +29,7 @@ python skills/claude-network-setup/scripts/build_client.py --node examples/node.
 检查 Git 工作区与暂存区，禁止上传 private/outputs/backups/reports、实际节点文件或用户检测截图。运行检查脚本后人工审阅；扫描器并非完整秘密检测工具。
 
 更新测试结果只写真实运行的版本与项目。公开仓库不要承诺“防封”“100% 不泄漏”或“所有平台通用”。VPS 推荐更新时同步评测日期与推广披露。
+
+## 多语言维护
+
+中文首页为 README.md，英文首页为 README.en.md，英文教程位于 docs/en/。更新价格、命令、路由边界和隐私说明时同步两种语言。各页提供语言切换入口，脚本与可执行 Skill 共用一套；Skill 主指令仍为中文，英文首页已明确说明。新增语言时提供首页和配套教程，并注明尚未翻译的内容。

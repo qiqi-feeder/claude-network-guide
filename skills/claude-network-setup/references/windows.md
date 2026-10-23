@@ -1,5 +1,7 @@
 # Windows：独立 YAML、规则与 DNS
 
+**简体中文** | [English](../../../docs/en/windows.md)
+
 ## 生成客户端
 
 需要 Python 3.10+ 与仓库根目录 requirements.txt。把私密节点参数放仓库外，例如系统用户自己的私密目录。

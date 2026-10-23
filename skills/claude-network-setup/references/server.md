@@ -1,5 +1,7 @@
 # 服务端：sing-box + VLESS Reality
 
+**简体中文** | [English](../../../docs/en/server.md)
+
 适用于用户已授权部署的自有 Linux VPS。已有业务先发现和备份，不重装系统，不停用未知服务，不盲目占用 443。
 
 ## 安装与版本

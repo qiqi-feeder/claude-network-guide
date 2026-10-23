@@ -1,5 +1,7 @@
 # 来源与致谢
 
+**简体中文** | [English](en/sources.md)
+
 部署时重新核对当前官方字段和适用版本。
 
 - [sing-box 安装与服务管理](https://sing-box.sagernet.org/installation/package-manager/)
