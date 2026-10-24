@@ -57,6 +57,8 @@
 
 ## 安装 Skill
 
+支持 Windows 与 iPhone 逐步教学：识别当前进度，每次提供可完成的操作，根据反馈继续；有工具和授权时可代操作。不同 Agent 的安装和能力边界见 [跨 Agent 使用指南](docs/agents.md)。
+
 克隆后将整个 `skills/claude-network-setup` 目录复制到工具的 Skill 目录。Codex 通常为 `~/.codex/skills/`，Claude Code 通常为 `~/.claude/skills/`；先核对目标工具当前文档，不覆盖已修改的同名 Skill。
 
 也可以不安装，直接让 AI 阅读 SKILL.md。支持调用的工具可使用：

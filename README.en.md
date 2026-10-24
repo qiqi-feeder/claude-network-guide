@@ -61,6 +61,8 @@ The configuration uses Johnshall's whitelist with additional protection rules. T
 
 ## Use the Skill
 
+The Skill supports step-by-step Windows and iPhone guidance, adapting to progress and available tools. See [Using it in different agents](docs/en/agents.md) for installation, direct reading, and capability limits.
+
 You can ask an assistant to read the Skill directly. To install it, copy the entire `skills/claude-network-setup` directory into your tool's Skill directory, checking its current documentation first. Common locations are `~/.codex/skills/` for Codex and `~/.claude/skills/` for Claude Code. Preserve any existing customized copy.
 
 ```text

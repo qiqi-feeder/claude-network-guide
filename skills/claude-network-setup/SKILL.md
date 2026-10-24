@@ -1,6 +1,6 @@
 ---
 name: claude-network-setup
-description: 检查 Windows、Clash Verge Rev 与自有 VPS，按授权配置 sing-box Reality、独立社区分流与 DNS，实测 IPv6、WebRTC、断线行为及国内应用兼容性。适用于环境搭建和网络排障，不用于账号限制规避或身份伪装。
+description: 逐步指导或按授权配置 Windows Clash Verge、iPhone Shadowrocket 与自有 sing-box Reality VPS，检查社区分流、DNS、IPv6、WebRTC、断线行为和国内应用兼容性。适用于网络搭建、教学与排障，不用于账号限制规避或身份伪装。
 ---
 
 # Claude 网络环境搭建与验收
@@ -8,6 +8,12 @@ description: 检查 Windows、Clash Verge Rev 与自有 VPS，按授权配置 si
 先确定用户需要只读审查、部署、修复还是清理。已经授权部署时，继续完成备份、校验、应用和验收，不重复询问同一许可；只要求审查时不写配置。
 
 ## 执行入口
+
+先读 [逐步教学与能力适配](references/teaching.md)。询问或从上下文确定设备、客户端、已有 VPS、教学或代操作，以及黑名单／白名单偏好；不要反复询问已有答案。用用户使用的语言教学。
+
+手机端读 [Shadowrocket 教学](references/shadowrocket.md)，使用包内 `assets/shadowrocket-ai-extension.example.conf`。不要在 iPhone 上执行 Windows 检查脚本。需要搭建 VPS 时再读服务端参考。
+
+Windows 端：
 
 1. 阅读 [环境发现](references/environment.md)，核对实际程序、当前配置、权限与已有业务，不假设目录、SSH 端口、配置 UID 或节点。
 2. 新建节点读 [服务端](references/server.md)；已有可用节点直接验证，不重装或轮换密钥。
@@ -20,7 +26,7 @@ description: 检查 Windows、Clash Verge Rev 与自有 VPS，按授权配置 si
 - 缺少连接资料只询问缺项。密码由用户在安全提示输入，不写命令、仓库、聊天或报告，不提取浏览器保存的密码。
 - 按用户授权范围处理安装、防火墙、时区、浏览器数据与发布。提供教程不代表获准修改读者的电脑。
 - 备份目标和生成来源，校验后替换，失败恢复上一版本。SSH 先放行实际端口，验证新会话后再收紧。
-- 国内与局域网直连；保护服务与未知海外流量走固定 VPS。代理组不提供 DIRECT 或自动直连回退。
+- Windows 默认国内与局域网直连、保护服务与未匹配流量走固定 VPS；手机按用户选择黑名单或白名单，黑名单未匹配流量直连。解释差异，不擅自改选。保护服务策略不提供 DIRECT 或自动直连回退。
 - 默认海外 DNS 明确经 VPS，国内域名可用国内加密 DNS。IP/GEOIP 用 no-resolve，节点引导解析独立安排。
 - 双栈 TUN 后按规则分流，不加 `IP-CIDR6,::/0,REJECT`。它会误伤微信国内 IPv6 图片连接。不能只关 Clash IPv6 就声称消除了系统绕行。
 - Verge 可能覆盖 dns.ipv6、TUN 等字段，验收运行配置与路由。Fake AAAA 不等于直连，看实际连接链。
