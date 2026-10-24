@@ -11,7 +11,9 @@ Recheck current official fields and supported versions before deployment.
 - [Mihomo DNS](https://wiki.metacubex.one/config/dns/)
 - [Mihomo TUN](https://wiki.metacubex.one/config/inbound/tun/)
 - [Clash Verge Rev](https://github.com/clash-verge-rev/clash-verge-rev)
-- [Johnshall whitelist](https://github.com/Johnshall/Shadowrocket-ADBlock-Rules-Forever)
+- [Johnshall blacklist and whitelist](https://github.com/Johnshall/Shadowrocket-ADBlock-Rules-Forever)
+- [Original Shadowrocket tutorial](https://x.com/zureA255062/status/2107655494034989058)
+- [LOWERTOP community manual](https://github.com/LOWERTOP/Shadowrocket): unofficial; check your installed version.
 - [blackmatrix7 modular rules](https://github.com/blackmatrix7/ios_rule_script)
 - [Xiaoxiaodong VPS guide](https://github.com/nevertoday/xiaoxiaodong-vps): informed protected-domain, `no-resolve`, and verification guidance; deployment code was not copied.
 - [Google account region](https://policies.google.com/country-association-form): distinct from payment country or actual location.

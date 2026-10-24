@@ -36,7 +36,9 @@
 
 网络验收后，可阅读 [首次使用、Google 地区与隐私设置](docs/claude-first-run.md)。
 
-## 流量如何分配
+手机端另见 [Shadowrocket：黑名单、自动更新与泄漏排查](docs/shadowrocket.md)，附不含凭据的增强模板。
+
+## Windows 流量如何分配
 
 | 流量 | 连接 | DNS |
 |---|---|---|

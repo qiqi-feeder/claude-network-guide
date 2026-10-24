@@ -40,7 +40,9 @@ Review the plan before authorizing deployment. Keep an existing VPS if it works 
 
 After network verification, read [First use, Google account region, and privacy](docs/en/claude-first-run.md).
 
-## Where traffic goes
+For iPhone, see [Shadowrocket: blacklist, updates, and leak checks](docs/en/shadowrocket.md), including a credential-free extension template.
+
+## Where Windows traffic goes
 
 | Traffic | Connection | DNS |
 |---|---|---|

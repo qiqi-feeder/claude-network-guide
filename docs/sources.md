@@ -11,7 +11,9 @@
 - [Mihomo DNS](https://wiki.metacubex.one/config/dns/)
 - [Mihomo TUN](https://wiki.metacubex.one/config/inbound/tun/)
 - [Clash Verge Rev](https://github.com/clash-verge-rev/clash-verge-rev)
-- [Johnshall 白名单](https://github.com/Johnshall/Shadowrocket-ADBlock-Rules-Forever)
+- [Johnshall 黑名单与白名单](https://github.com/Johnshall/Shadowrocket-ADBlock-Rules-Forever)
+- [Shadowrocket 原教程](https://x.com/zureA255062/status/2107655494034989058)
+- [LOWERTOP 小火箭社区手册](https://github.com/LOWERTOP/Shadowrocket)：非官方手册，字段以安装版本为准。
 - [blackmatrix7 模块化规则](https://github.com/blackmatrix7/ios_rule_script)
 - [小小东 VPS](https://github.com/nevertoday/xiaoxiaodong-vps)：参考 AI 域名、no-resolve 和验收思路，未复制部署代码。
 - [Google 账号关联地区](https://policies.google.com/country-association-form)：不等于付款地区或实际所在地。
